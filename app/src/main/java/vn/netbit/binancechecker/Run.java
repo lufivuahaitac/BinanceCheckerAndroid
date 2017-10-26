@@ -72,6 +72,7 @@ public class Run implements Runnable{
         this.v = v;
         this.result = result;
         this.mNotificationManager = mNotificationManager;
+        this.tempPrice = startPrice;
         this.activity = (Activity) v.getContext();
     }
 

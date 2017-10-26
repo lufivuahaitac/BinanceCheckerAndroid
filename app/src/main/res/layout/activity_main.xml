@@ -95,13 +95,17 @@
     </LinearLayout>
 
 
-
-    <TextView
-        android:layout_marginTop="10dp"
-        android:id="@+id/Result"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="" />
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/Result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+    </ScrollView>
+
 
 
 </LinearLayout>
